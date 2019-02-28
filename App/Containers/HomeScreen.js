@@ -117,7 +117,8 @@ const endpoints = [
 
 const stackNavigator = createStackNavigator({
   HomeScreen: {screen: HomeScreen},  
-  
+  CategoryScreen: {screen: CategoryScreen},
+
 }, {
   cardStyle: {
     opacity: 1,
